@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    flex-grow: 1;
+    max-width: 1200px;
+    margin: 16px auto;
+    padding: 0 16px;
+}
+
+.titulo{
+    align-items: center;
+    gap: 20px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-red-400 {
+    color: #fc8181;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.ml-32 {
+    margin-left: 8rem;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-32 {
+    margin-right: 8rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.block {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.py-1 {
+    padding: 0.25rem 0;
+}
+
+.color_white{
+    color: white;
+}
+
+.h-15{
+    height: 45px;
+}
+
+.position{
+    margin-left: -80px;
+}
+
+
+
+ul.flex {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para os links */
+ul.flex li a {
+    display: block;
+    padding: 1rem; /* Padding interno dos links */
+    text-decoration: none;
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    transition: border-bottom 0.3s ease; /* Transição suave para a borda inferior */
+}
+
+/* Estilo para os links quando são hover */
+ul.flex li a:hover {
+    color: #fff; /* Cor do texto ao passar o mouse */
+    border-bottom: 2px solid #fff; /* Borda inferior ao passar o mouse */
+}
